@@ -1,0 +1,53 @@
+body {
+	background-color: beige;
+}
+h1 {
+	text-align: center;
+	border-bottom: 1px solid black;
+	padding-bottom: 1%;
+}
+table.table_item {
+	width: auto;
+	margin: auto;
+}
+tr.row_item {
+	
+}
+td.text_cell {
+	text-align: right;
+}
+td.input_cell {
+	padding-left: 2%;
+}
+td.numeric_cell {
+	padding-left: 2%;
+}
+td.button_cell {
+	
+}
+td.allo_cell {
+	padding-left: 2%;
+}
+td.display_cell {
+	padding-left: 2%;
+}
+span.text_item {
+	color: black;
+	border-right: 1px solid black;
+	padding-right: 4%;
+}
+input.input_item {
+	background-color: ivory;
+}
+input.numeric_item {
+	background-color: wheat;
+}
+span.display_item {
+	color: black;
+}
+input.allo_item {
+	background-color: tan;
+}
+button.button_item {
+	
+}

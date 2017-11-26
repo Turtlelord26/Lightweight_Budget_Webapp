@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<title>Virtual Account Application</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<link rel="stylesheet" href="Assets/Budget-App-style.css" />
+	</head>
+
+	<body>
+		<h1 class="page_header">Lightweight Budget Allocation Application</h1>
+		<table id="table" class="table_item">
+		<tr class="row_item">
+			<td class="text_cell"><span class="text_item">Total Deposit</span></td>
+			<td class="input_cell"><input id="deposit" class="input_item" type="number" value="0"></input></td>
+		</tr>
+		<tr class="row_item">
+			<td class="text_cell"><span class="text_item">Savings</span></td>
+			<td class="numeric_cell"><input class="numeric_item" type="number" value="0"></input></td>
+		</tr>
+		<tr class="row_item">
+			<td class="text_cell"><span class="text_item">Pocket Funds</span></td>
+			<td class="numeric_cell"><input class="numeric_item" type="number" value="0"></input></td>
+		</tr>
+		<tr class="row_item">
+			<td class="text_cell"><span class="text_item">Groceries</span></td>
+			<td class="numeric_cell"><input class="numeric_item" type="number" value="0"></input></td>
+		</tr>
+		<tr class="row_item">
+			<td class="text_cell"><span class="text_item">Phone</span></td>
+			<td class="numeric_cell"><input class="numeric_item" type="number" value="0"></input></td>
+		</tr>
+		<tr class="row_item">
+			<td class="text_cell"><span class="text_item">Car</span></td>
+			<td class="numeric_cell"><input class="numeric_item" type="number" value="0"></input></td>
+		</tr>
+		<tr class="row_item">
+			<td class="text_cell"><span class="text_item">Internet</span></td>
+			<td class="numeric_cell"><input class="numeric_item" type="number" value="0"></input></td>
+		</tr>
+		<tr class="row_item">
+			<td class="text_cell"><span class="text_item">Unallocated</span></td>
+			<td class="display_cell"><span id="Unallocated" class="display_item" value="0"></span></td>
+		</tr>
+		<tr class="row_item">
+			<td class="button_cell"><button class="button_item" id="arButton">Add/Remove Allocation</button></td>
+			<td class="allo_cell"><input id="add/remove" class="allo_item" type="text" value=""></input></td>
+		</tr>
+		</table>
+		
+		<script src="Assets/Budget-App-script.js"></script>
+	</body>
+</html>
